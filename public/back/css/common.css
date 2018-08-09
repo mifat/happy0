@@ -5,7 +5,7 @@ body{
   color: #333;
 }
 .bd-color{
-  background: pink;
+  /* background: pink; */
 }
 .panel .panel-title {
   height: 40px;
@@ -149,4 +149,9 @@ a:active{
   
   padding-left:195px;
   padding-right: 15px;
+}
+.table th,
+.table td{
+  text-align: center;
+  vertical-align: middle;
 }
