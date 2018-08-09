@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,85 +9,114 @@
   <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="./lib/bootstrap-validator/css/bootstrapValidator.css">
   <link rel="stylesheet" href="./css/common.css">
-  <link rel="stylesheet" href="./css/index.css">
+<link rel="stylesheet" href="./css/index.css">
 </head>
+
 <body class="bd-color">
-   <div class="lt-aside">
-     <div class="brand">
-       <a href="javascript:;">Mia最帥</a>
-     </div>
-     <div class="lt-user">
-       <img src="./images/aa.jpg" alt="">
-       <p>吵架能手</p>
-     </div>
+  <div class="lt-aside">
+    <div class="brand">
+      <a href="javascript:;">Mia最帥</a>
+    </div>
+    <div class="lt-user">
+      <img src="./images/aa.jpg" alt="">
+      <p>吵架能手</p>
+    </div>
 
-     <div class="nav">
-        <ul>
-            <li><a href="user.html" class="current"><i class="glyphicon glyphicon-user"></i><span> 用戶管理</span></a></li>
-            <li>
-              <a href="javascript:;" class="category"><i class="glyphicon glyphicon-list"></i><span> 分類管理</span></a>
-                <div class="child" style="display: none">
-                  <a href="frist.html">一級分類</a>
-                  <a href="second.html">二級分類</a>
-              </div> 
-            </li>
-            <li><a href="product.html"><i class="glyphicon glyphicon-tags"></i><span> 商品管理</span></a></li>
-           
-          </ul>
-     </div>
-   </div> 
-   <div class="lt-main">
-      <div class="lt-topbar">
-        <!-- <a href="#" class="pull-left icon_menu"><i class="glyphicon glyphicon-align-justify"></i> </a> -->
-        <!-- <a href="#" class="pull-right icon_menu"><i class="glyphicon glyphicon-align-justify"></i> </a>\ -->
-        <a href="#" class="pull-left icon_menu"><i class="glyphicon glyphicon-align-justify"></i></a>
-        <a href="#" class="pull-right icon_logout"><i class="glyphicon glyphicon-log-out"></i></a>
-      </div> 
-   
-      <!-- 路径导航 -->
-      <div class="lt-fuild">
-          <ol class="breadcrumb">
-              <li><a href="javascript:;">管理系统</a></li>
-              <li><a href="user.html">用户管理</a></li>
-            </ol>
+    <div class="nav">
+      <ul>
+        <li>
+          <a href="user.html" class="current">
+            <i class="glyphicon glyphicon-user"></i>
+            <span> 用戶管理</span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;" class="category">
+            <i class="glyphicon glyphicon-list"></i>
+            <span> 分類管理</span>
+          </a>
+          <div class="child" style="display: none">
+            <a href="frist.html">一級分類</a>
+            <a href="second.html">二級分類</a>
+          </div>
+        </li>
+        <li>
+          <a href="product.html">
+            <i class="glyphicon glyphicon-tags"></i>
+            <span> 商品管理</span>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+  <div class="lt-main">
+    <div class="lt-topbar">
+      <!-- <a href="#" class="pull-left icon_menu"><i class="glyphicon glyphicon-align-justify"></i> </a> -->
+      <!-- <a href="#" class="pull-right icon_menu"><i class="glyphicon glyphicon-align-justify"></i> </a>\ -->
+      <a href="#" class="pull-left icon_menu">
+        <i class="glyphicon glyphicon-align-justify"></i>
+      </a>
+      <a href="#" class="pull-right icon_logout">
+        <i class="glyphicon glyphicon-log-out"></i>
+      </a>
+    </div>
+
+    <!-- 路径导航 -->
+    <div class="lt-fuild">
+      <ol class="breadcrumb">
+        <li>
+          <a href="javascript:;">管理系统</a>
+        </li>
+        <li>
+          <a href="user.html">用户管理</a>
+        </li>
+      </ol>
+    </div>
+    <!-- main的body部分 -->
+ 
+  </div>
+
+  <div class="lt-body">
+
+    <div class="lt-left pull-left "></div>
+    <div class="lt-right pull-right "></div>
+     
+
+  </div>
+
+
+
+
+
+  <!-- 模态框 -->
+  <div class="modal fade" tabindex="-1" id="logoutModal">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <h4 class="modal-title">温馨提示</h4>
         </div>
-         <!-- main的body部分 -->
-   <div class="lt-body">
-
-      <p>5414857453124878541</p>
-   
-   
-      </div>
-   </div>
-   
-  
-
-
-
-
-
-   <!-- 模态框 -->
-   <div class="modal fade" tabindex="-1" id="logoutModal">
-      <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
-            <h4 class="modal-title">温馨提示</h4>
-          </div>
-          <div class="modal-body">
-            <p class="red"><i class="glyphicon glyphicon-info-sign"></i> 您确定要退出后台管理系统吗？</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-            <button type="button" class="btn btn-primary" id="logoutbtn">确定</button>
-          </div>
+        <div class="modal-body">
+          <p class="red">
+            <i class="glyphicon glyphicon-info-sign"></i> 您确定要退出后台管理系统吗？</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-primary" id="logoutbtn">确定</button>
         </div>
       </div>
     </div>
+  </div>
 
   <script src="./lib/jquery/jquery.min.js"></script>
   <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
   <script src="./lib/bootstrap-validator/js/bootstrapValidator.min.js"></script>
+<script src="./lib/echarts/echarts.min.js"></script>
   <script src="./js/common.js"></script>
+  <script src="./js/index.js"></script>
 </body>
+
 </html>

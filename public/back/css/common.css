@@ -36,6 +36,7 @@ a:active{
 .mt_150{
   margin-top: 150px;
 }
+
 .lt-aside{
   width: 180px;
   height: 100%;
@@ -143,3 +144,9 @@ a:active{
 /* .lt-fuild .breadcrumb{
   margin-top: 20px;
 } */
+.lt-body{
+  /* padding: 15px; */
+  
+  padding-left:195px;
+  padding-right: 15px;
+}
